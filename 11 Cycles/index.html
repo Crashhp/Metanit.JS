@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+<title>JavaScript</title>
+</head>
+<body>
+    <h2>Первая программа на JavaScript</h2>
+    <script>
+        var people = ["Tom", "Alice", "Bob", "Sam"];
+        for(var i = 0; i < people.length; i++) {
+            console.log(people[i]);
+        }
+
+        for(var i in people){
+            console.log(i);
+            console.log(people[i]);
+        }
+
+        for(var men of people){
+            console.log(men);
+        }
+
+    </script>
+</body>
+</html>
